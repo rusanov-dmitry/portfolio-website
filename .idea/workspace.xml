@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f26a6db3-6c95-4ac8-a8e5-60cfe19f5569" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,8 @@
       <workItem from="1630595540404" duration="688000" />
       <workItem from="1630603731208" duration="1000" />
       <workItem from="1630665652360" duration="14346000" />
+      <workItem from="1630680857338" duration="91000" />
+      <workItem from="1630680966505" duration="333000" />
     </task>
     <servers />
   </component>
@@ -85,6 +86,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
