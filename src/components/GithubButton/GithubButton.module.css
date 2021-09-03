@@ -1,0 +1,27 @@
+.button {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: white;
+    color: #171717;
+    display: inline-flex;
+    padding: 2.5rem 2.8rem;
+    border-radius: 1rem;
+    margin-top: 12rem;
+    transition: transform 150ms;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #e5e5e5;
+}
+
+.button img {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 1.5rem;
+}

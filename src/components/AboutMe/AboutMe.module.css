@@ -1,0 +1,159 @@
+.container {
+    background-color: #1D1D1D;
+    border-radius: 1.5rem;
+    padding: 4rem;
+    max-width: 62.3rem;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    margin-right: 12rem;
+}
+
+.greetingHeader {
+    display: flex;
+    align-items: center;
+}
+
+.photo {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 8rem;
+    background-color: #171717;
+    margin-right: 4rem;
+    box-shadow: 0rem 0.4rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.hand {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-left: 2.5rem;
+}
+
+.generalInfo {
+    margin-top: 4rem;
+}
+
+.generalInfo p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.skills {
+    margin-top: 4rem;
+}
+
+.skills h3 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.skillsList {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+    padding-left: 3.3rem;
+    list-style: none;
+}
+
+.skillsList li {
+    margin: 1.5rem 0;
+}
+
+.skillsList li::before {
+    content: "\2022";
+    color: #FFDC5D;
+    font-weight: bold;
+    display: inline-block;
+    width: 0.8em;
+    margin-left: -2.4rem;
+    transition: width 300ms;
+}
+
+.skillsList li:hover::before {
+    width: 1.2em;
+}
+
+.contactInfo {
+    margin-top: 4rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.contactInfo p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.contactInfo a {
+    text-decoration: none;
+    color: #FFDC5D;
+    font-weight: 500;
+    position: relative;
+}
+
+.contactInfo a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 0.2rem;
+    background-color: #FFDC5D;
+    margin-bottom: -0.6rem;
+    transition: width 300ms;
+}
+
+.contactInfo a:hover::after {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1170px) {
+    .container {
+        margin-right: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .container {
+        margin-right: 0;
+        max-width: 65rem;
+        margin-bottom: 8rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        padding: 3rem 2rem;
+    }
+    .photo {
+        width: 8rem;
+        height: 8rem;
+        margin-right: 1.5rem;
+    }
+    .title {
+        font-size: 2.4rem;
+    }
+    .hand {
+        width: 2.8rem;
+        height: 2.8rem;
+        margin-left: 1rem;
+    }
+    .generalInfo p {
+        font-size: 2rem;
+    }
+    .skills h3 {
+        font-size: 2rem;
+    }
+    .skillsList {
+        font-size: 1.8rem;
+    }
+    .contactInfo {
+        font-size: 2rem;
+    }
+}
