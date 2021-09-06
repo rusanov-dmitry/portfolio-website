@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f26a6db3-6c95-4ac8-a8e5-60cfe19f5569" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GithubButton/GithubButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GithubButton/GithubButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyProjects/MyProjects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/MyProjects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,8 @@
       <workItem from="1630680857338" duration="91000" />
       <workItem from="1630680966505" duration="355000" />
       <workItem from="1630681515883" duration="285000" />
-      <workItem from="1630927873863" duration="883000" />
+      <workItem from="1630927873863" duration="1505000" />
+      <workItem from="1630938282219" duration="622000" />
     </task>
     <servers />
   </component>
